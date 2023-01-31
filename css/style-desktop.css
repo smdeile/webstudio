@@ -1,0 +1,88 @@
+@media screen and (min-width: 1200px) {
+
+      .header {
+        margin-bottom: 120px;
+    }
+    .header-border {
+      height: 600px;
+    }
+    .nav-bar {
+      height: 76px;
+    }
+    .logo {
+      margin-right: 76px;
+    }
+    .nav-bar-menu {
+      flex-grow: 2;
+    }
+    .header-contacts {
+      display: flex;
+    }
+    .header-contacts li:first-child {
+      margin-right: 40px;
+    }
+    .header-contacts a {
+      font-size: 16px;
+    }
+    .advantage {
+      padding: 0;
+  }
+  .advantage-block {
+    margin-bottom: 120px;
+  }
+  .advantage-article {
+    margin-bottom: 0 !important;
+  }
+  .advantage-block {
+    display: flex;
+  }
+  .advantage-block:not(:last-child) .advantage-article:not(:last-child) {
+    margin-right: 24px;
+  }
+  .todo {
+    display: block;
+    color: var(--cloud-color);
+    padding-bottom: 120px;
+  }
+  .todo-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .todo-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .our-team-blocks-wrapper {
+    display: flex;
+  }
+  .our-team-article {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .customers-list {
+    justify-content: space-between;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+  }
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+  .footer-soc-div {
+    margin-right: 80px;
+  }
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+}

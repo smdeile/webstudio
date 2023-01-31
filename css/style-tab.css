@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    height: 70px;
+  }
+  .nav-bar-wrapper {
+    align-items: center;
+
+  }
+  .header-contacts a {
+    color: var(--slat-color);
+  }
+.header-border h2 {
+  display: none;
+}
+.header-border h1 {
+  display: block;
+  margin-bottom: 40px;
+}
+.header-border {
+  height: 436px;
+  background-size: 100% 100%;
+}  
+.nav-bar-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+ }
+.header-contacts {
+  display: block;
+}
+
+ .header-contacts {
+  display: block;
+ }
+  .menu-toggle {
+    display: none;
+  }
+  .advantage {
+    display: flex;
+  }
+  .advantage-block:not(:last-child) {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .advantage-article:not(:last-child) {
+    margin-bottom: 72px;
+  }
+.our-team-block {
+  display: flex;
+}
+.our-team-article:first-child {
+  margin-right: 24px;
+}
+.our-team-article {
+  margin-bottom: 64px;
+}
+.customers-link {
+  width: 168px;
+}
+.footer-section {
+  padding: 96px 108px;
+  align-items: flex-start;
+}
+.footer-logo-container {
+  margin-right: 24px;
+}
+.footer-top-container {
+  display: flex;
+  margin-bottom: 72px;
+}
+.footer-text {
+  width: 264px;
+}
+.footer-form-title {
+  text-align: left;
+}
+.footer-form {
+  display: flex;
+  flex-direction: row;
+}
+.footer-soc-div  {
+  padding: 0;
+  align-items: flex-start;
+}
+.footer-input {
+  width: 264px;
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+}
