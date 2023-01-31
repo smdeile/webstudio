@@ -51,8 +51,8 @@
 .our-team-article:first-child {
   margin-right: 24px;
 }
-.our-team-article {
-  margin-bottom: 64px;
+.our-team-article:first-child {
+  margin-bottom: 0;
 }
 .customers-link {
   width: 168px;

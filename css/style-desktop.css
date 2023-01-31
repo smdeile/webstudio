@@ -61,6 +61,9 @@
   .our-team-blocks-wrapper {
     display: flex;
   }
+  .our-team-block:first-child {
+    margin-bottom: 0;
+  }
   .our-team-article {
     margin-right: 24px;
     margin-bottom: 0;
