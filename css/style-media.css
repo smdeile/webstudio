@@ -1,3 +1,9 @@
 @import "style-mob.css";
 @import "style-tab.css";
 @import "style-desktop.css";
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .header-border {
+    background-image: url(".././images/people-office2x.jpg");
+  }
+}
