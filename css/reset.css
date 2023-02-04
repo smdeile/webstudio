@@ -23,7 +23,7 @@ time, mark, audio, video, button {
     vertical-align: baseline;
 }
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, img, picture {
     display: block;
 }
 html {

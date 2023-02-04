@@ -22,6 +22,9 @@
     height: 436px;
     background-size: 100% 100%;
   }
+  .hero { 
+    padding: 188px 0;
+  }
   .nav-bar-menu {
     display: flex;
     align-items: center;
@@ -30,14 +33,22 @@
   .header-contacts {
     display: block;
   }
-
-  .header-contacts {
-    display: block;
+  .header-contacts li:first-child {
+    margin-bottom: 4px;
   }
   .menu-toggle {
     display: none;
   }
+  .hero-title {
+    width: 496px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
 
+  }
   .our-team-block {
     display: flex;
   }
@@ -90,6 +101,7 @@
   .footer-logo-container {
     margin-right: 24px;
     margin-bottom: 0;
+    display: block;
   }
   .footer-top-container {
     display: flex;
@@ -116,6 +128,9 @@
     padding: 0;
     align-items: flex-start;
     margin-bottom: 0;
+  }
+  .footer-soc-text {
+    text-align: left;
   }
   .footer-input {
     width: 264px;

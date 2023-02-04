@@ -3,7 +3,14 @@
 @import "style-desktop.css";
 
 @media (-webkit-min-device-pixel-ratio: 2) {
-  .header-border {
-    background-image: url(".././images/people-office2x.jpg");
+  .hero {
+
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office2x.jpg);
+
   }
 }

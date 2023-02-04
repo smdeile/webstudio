@@ -23,6 +23,7 @@
   }
   .header-contacts li:first-child {
     margin-right: 40px;
+    margin-bottom: 0;
   }
   .header-contacts a {
     font-size: 16px;
@@ -83,16 +84,19 @@
   }
   
   .footer-logo-container {
-    align-items: flex-start;
+    display: block;
     margin-right: 120px;
     margin-bottom: 0;
   }
   .footer-soc-div {
-    margin-right: 80px;
     margin-bottom: 0;
+  }
+  .footer-soc-text {
+    text-align: left;
   }
   .footer-top-container {
     max-width: unset;
+    margin-right: 80px;
 
     margin-bottom: 0;
   }
