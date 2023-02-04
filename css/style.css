@@ -198,7 +198,7 @@ body {
   padding-bottom: 112px;
 }
 .hero-title {
-  width: 320px;
+  max-width: 320px;
   color: var(--white-color);
   margin: 0 auto;
   margin-bottom: 72px;

@@ -2,9 +2,7 @@
   .container {
     max-width: 768px;
   }
-  .header .logo {
-    padding: 24px 0;
-  }
+
   .nav-bar-wrapper {
     align-items: center;
   }
@@ -40,6 +38,7 @@
     display: none;
   }
   .hero-title {
+    max-width: unset;
     width: 496px;
     font-family: Roboto;
     font-size: 56px;

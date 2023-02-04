@@ -15,8 +15,8 @@
     justify-content: space-between;
     align-items: center;
   }
-  .nav-bar-wrapper .logo {
-    margin: 24px 0;
+  .header .logo {
+    padding: 24px 0;
   }
   .menu-toggle {
     min-height: 32px;
